@@ -21,13 +21,19 @@ body {
 
 }
 
+main article.forcastholder{
+align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 main article.inner{
     grid-template-columns: auto auto;
 display: grid;
     font-size: 15px;
     width: 150px;
     float:left;
-    top: -100px;
+    top: -150px;
     right: -30px;
     position: relative;
     }
@@ -52,7 +58,7 @@ header,
 nav,
 main,
 footer {
-	max-width: 900px;
+	max-width: 100%;
 	margin: 0 auto;
 }
 b {
@@ -61,7 +67,6 @@ b {
 
 }
 nav {
-	max-width: 900px;
 	background-color: blue;
 }
 .navigation {

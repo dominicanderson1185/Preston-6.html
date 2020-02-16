@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 450px) {
     /*400   */
 main article img.small {
     display: none;
@@ -16,6 +16,7 @@ padding-top: 10px;
 padding-bottom: 10px;
 
 }
+
       /*    1000px   */
 main article img.large {
 display: none;

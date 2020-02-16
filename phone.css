@@ -1,4 +1,4 @@
-@media screen and (min-width: 400px)
+@media screen and (min-width: 0px)
 {
 
 /*400   */
@@ -23,14 +23,15 @@ display: none;
 max-width: 100%;
 padding-top: 10px;
 padding-bottom: 10px;
-
-
     }
+
+
+
 	.navigation {
 		display: flex;
 	}
 	.navigation li {
-		display: block; /* needed because of state in small view */
+		display: block; 
 		flex: 1 1 100%;
 	}
 	.navigation li a {
@@ -45,7 +46,7 @@ padding-bottom: 10px;
     font-size:13px;
     
   }
-  article.forecast {
+  article.forecastholder {
     display: none;
    
     
