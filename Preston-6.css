@@ -21,14 +21,22 @@ body {
 
 }
 
-main article.forcastholder{
-align-items: center;
-    display: flex;
-    flex-direction: row-reverse;
+.forcastholder{
+display: flex;
+width: auto;
+
+}
+.forcastholder > div{
+    flex-direction: row;
+    text-align:center;
+    margin: 2px;
+    font-size: 20px;
+    padding: 30px;
+
 }
 
 main article.inner{
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 4;
 display: grid;
     font-size: 15px;
     width: 150px;

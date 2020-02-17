@@ -1,4 +1,4 @@
-@media screen and (min-width: 0px)
+@media screen and (min-width: 300px)
 {
 
 /*400   */
@@ -25,13 +25,23 @@ padding-top: 10px;
 padding-bottom: 10px;
     }
 
-
+    article.inner
+    {
+    display: none;
+    grid-template-columns: auto auto;
+        font-size: 15px;
+        width: 150px;
+        float:left;
+        top: -150px;
+        right: -30px;
+        position: relative;
+    }
 
 	.navigation {
 		display: flex;
 	}
 	.navigation li {
-		display: block; 
+		display: block; /* needed because of state in small view */
 		flex: 1 1 100%;
 	}
 	.navigation li a {

@@ -28,11 +28,14 @@ padding-bottom: 10px;
 
 
     }
+    article.inner{
+        display: grid;    
+          }
 	.navigation {
 		display: flex;
 	}
 	.navigation li {
-		display: block; /* needed because of state in small view */
+		display: block; 
 		flex: 1 1 100%;
 	}
 	.navigation li a {
