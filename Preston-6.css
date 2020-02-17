@@ -34,7 +34,10 @@ width: auto;
     padding: 30px;
 
 }
+main article.info{
+background-color: gray;
 
+}
 main article.inner{
     grid-template-columns: auto 4;
 display: grid;
